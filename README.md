@@ -230,9 +230,7 @@ Dashboard ประกอบด้วย
 
 ---
 
-## 📜 License
 
-Educational Project
 
 For FIFA World Cup 2026 Prediction Competition
 =======
