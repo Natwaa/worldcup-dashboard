@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Cup Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>🏆 FIFA WORLD CUP 2026 PREDICTOR</h1>
+    </div>
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <span>👑 Leader</span>
+            <h2 id="leader-name">-</h2>
+        </div>
+
+        <div class="stat-card">
+            <span>🎯 Top Score</span>
+            <h2 id="leader-score">0</h2>
+        </div>
+
+        <div class="stat-card">
+            <span>⚽ Matches Finished</span>
+            <h2 id="finished-matches">14</h2>
+        </div>
+
+        <div class="stat-card">
+            <span>🏆 Most Picked Champion</span>
+            <h2 id="top-champion">-</h2>
+        </div>
+
+    </div>
+
+    <div class="ranking-card">
+
+        <div class="card-title">
+            Ranking Leaderboard
+        </div>
+
+        <table class="ranking-table">
+
+            <thead>
+
+                <tr>
+                    <th>#</th>
+                    <th>Player</th>
+                    <!-- <th>Champion</th> -->
+                    <th>Points</th>
+                    <th>Trend</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="ranking-body"></tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+
+</body>
+</html>
