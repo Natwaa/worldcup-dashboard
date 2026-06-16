@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏆 FIFA World Cup 2026 Predictor Dashboard
 
 ระบบจัดอันดับการทายผลฟุตบอลโลก 2026 แบบ Real-time
@@ -234,3 +235,6 @@ Dashboard ประกอบด้วย
 Educational Project
 
 For FIFA World Cup 2026 Prediction Competition
+=======
+# worldcup-dashboard
+>>>>>>> 9f8cd1cf64052dfd981720c4af1fe769f516dcfc
